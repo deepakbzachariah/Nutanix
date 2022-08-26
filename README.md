@@ -18,7 +18,7 @@ Pre-requites
 
         git clone https://github.com/tanmaybhandge/Nutanix_VM_Creation.git
 
-2. Update the variables in the variables.tf file to match your Nutanix environment.
+2. Update the variables in the ```variables.tf``` file to match your Nutanix environment.
 ```hcl
 variable "vm_name" {
   type    = string
@@ -57,7 +57,7 @@ variable "image_name" {
 }
 ```
 
-3. You may need to modify the prism configuration on provider file.
+3. You may need to modify the prism configuration on ```provider.tf``` file.
 
 ```hcl
 provider "nutanix" {
@@ -72,7 +72,7 @@ provider "nutanix" {
 }
 ```
 
-3. You may configure the username & password of the VM mentioned on the main.tf to remotely execute the script.
+3. You may configure the username & password of the VM mentioned on the ```main.tf``` to remotely execute the script.
 
 ```hcl
   connection {
@@ -83,7 +83,7 @@ provider "nutanix" {
   }
 ```
 
-4. Additionally, you may execute the customize script in remote-exec provisioner
+4. Additionally, you may execute the customize script in ```remote-exec``` provisioner
 
 ```hcl
   provisioner "remote-exec" {
@@ -108,7 +108,7 @@ terraform | >= 1.2.7
 
 
 ### Running this Example
-Initialize the modules (and download the Nutanix Provider) by running terraform init:
+Initialize the modules (and download the Nutanix Provider) by running terraform init.
 
     $ terraform init
 
