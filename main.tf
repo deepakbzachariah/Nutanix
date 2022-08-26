@@ -14,7 +14,7 @@ resource "nutanix_virtual_machine" "vm1" {
   connection {
     type     = "ssh"
     user     = "root"
-    password = "nutanix/4u"
+    password = "<password goes here>"
     host     = nutanix_virtual_machine.vm1.nic_list_status[0].ip_endpoint_list[0].ip
   }
 
