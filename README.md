@@ -107,7 +107,7 @@ nutanix | >= 1.7.0
 terraform | >= 1.2.7
 
 
-### Running this Example
+### Running this repository
 Initialize the modules (and download the Nutanix Provider) by running terraform init.
 
     $ terraform init
