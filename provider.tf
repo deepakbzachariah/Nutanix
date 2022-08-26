@@ -11,9 +11,9 @@ provider "nutanix" {
   # Configuration options
 
   username     = "admin"
-  password     = "nx2Tech398!"
+  password     = "<password of prism>"
   port         = 9440
-  endpoint     = "10.38.78.37"
+  endpoint     = "<IP Address>"
   insecure     = true
   wait_timeout = 10
 }
