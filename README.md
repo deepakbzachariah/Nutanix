@@ -2,7 +2,7 @@
 # Nutanix VM Creation
 
 
-This Terraform repository deploys Virtual Machine in Nutanix cluster using Infrastructure as code with Terraform.
+This repository deploys Virtual Machine in Nutanix cluster using Infrastructure as code with Terraform.
 
 Pre-requites
 
