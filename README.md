@@ -1,7 +1,7 @@
 # Nutanix VM Creation
 
 
-This repository deploys Virtual Machine and configures the apache package in deployed VM [script](https://raw.githubusercontent.com/tanmaybhandge/Linux_scripts/main/webserver.sh) on Nutanix cluster using Infrastructure as code with Terraform.
+This repository deploys Virtual Machine and configures the apache package in deployed VM on Nutanix cluster using Infrastructure as code with Terraform.
 
 Pre-requites
 
