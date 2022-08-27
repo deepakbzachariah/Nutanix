@@ -7,7 +7,7 @@ Pre-requites
 
 - Terraform
 - Adding nutanix as a required provider.
-- Create the new VM in Nutanix, clone it and modify the VM Disk as image template.
+- Create the new VM in Nutanix, clone it and modify the VM Disk as image template. We require OS image on Nutanix cluster.
 - Make sure networking VLAN has been configured.
 - Establish the connectivity to Prism.
 
