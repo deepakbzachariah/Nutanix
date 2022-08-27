@@ -20,7 +20,7 @@ variable "no_socket" {
 
 variable "cluster_name" {
   type    = string
-  default = "PHX-POC306"
+  default = "POC"
 }
 
 variable "subnet_name" {
