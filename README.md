@@ -72,7 +72,7 @@ provider "nutanix" {
 }
 ```
 
-3. You may configure the username & password of the VM mentioned on the ```main.tf``` to remotely execute the script.
+4. You may configure the username & password of the VM mentioned on the ```main.tf``` to remotely execute the script.
 
 ```hcl
   connection {
@@ -83,7 +83,7 @@ provider "nutanix" {
   }
 ```
 
-4. Additionally, you may execute the customize script in ```remote-exec``` provisioner
+5. Additionally, you may execute the customize script in ```remote-exec``` provisioner
 
 ```hcl
   provisioner "remote-exec" {
