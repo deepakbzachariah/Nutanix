@@ -11,9 +11,9 @@ provider "nutanix" {
   # Configuration options
 
   username     = "admin"
-  password     = "Password"
+  password     = var.password
   port         = 9440
-  endpoint     = "IP address of Prism Central"
+  endpoint     = var.endpoint
   insecure     = true
   wait_timeout = 10
 }
