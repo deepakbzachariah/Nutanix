@@ -13,7 +13,7 @@ provider "nutanix" {
   username     = "admin"
   password     = "Password"
   port         = 9440
-  endpoint     = "<IP Address>"
+  endpoint     = "IP address of Prism Central"
   insecure     = true
   wait_timeout = 10
 }
