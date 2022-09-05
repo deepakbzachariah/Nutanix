@@ -11,7 +11,7 @@ provider "nutanix" {
   # Configuration options
 
   username     = "admin"
-  password     = "<password of prism>"
+  password     = "Password"
   port         = 9440
   endpoint     = "<IP Address>"
   insecure     = true
