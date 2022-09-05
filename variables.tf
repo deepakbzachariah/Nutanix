@@ -23,6 +23,11 @@ variable "cluster_name" {
   default = "POC"
 }
 
+variable "endpoint" {
+  type    = string
+  default = "PC_IP"
+}
+
 variable "subnet_name" {
   type    = string
   default = "Primary"
