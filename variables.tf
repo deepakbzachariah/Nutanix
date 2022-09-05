@@ -28,6 +28,11 @@ variable "endpoint" {
   default = "PC_IP"
 }
 
+variable "user" {
+  type    = string
+  default = "PC_user"
+}
+
 variable "subnet_name" {
   type    = string
   default = "Primary"
