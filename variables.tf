@@ -33,6 +33,11 @@ variable "user" {
   default = "PC_user"
 }
 
+variable "password" {
+  type    = string
+  default = "PC_pass"
+}
+
 variable "subnet_name" {
   type    = string
   default = "Primary"
